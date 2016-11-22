@@ -1,5 +1,9 @@
 describe('About Expects', function() {
 
+  it('should expect true', function() {
+    var arr = [1,2,3] 
+    expect(arr.slice(2,3)).toEqual(true);
+  });
   // We shall contemplate truth by testing reality, via spec expectations.
   it('should expect true', function() {
 
